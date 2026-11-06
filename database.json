@@ -1,0 +1,345 @@
+{
+  "racks": [
+    "RAK A1",
+    "RAK A2",
+    "RAK B1",
+    "RAK B2",
+    "RAK OLI",
+    "RAK BAN",
+    "JASA BENGKEL"
+  ],
+  "categories": [
+    "Oli & Pelumas",
+    "Pengereman",
+    "CVT & Penggerak",
+    "Kelistrikan",
+    "Ban & Kaki-kaki",
+    "Jasa Servis"
+  ],
+  "mechanics": [
+    "Tanpa Mekanik (Beli Part)"
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "username": "owner",
+      "passHash": "jm_b8789fb_1266653b",
+      "name": "Bapak Pimpinan (Owner)",
+      "role": "OWNER"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "ITM-01",
+      "sku": "OLI-001",
+      "name": "Oli Yamalube Super Matic 1L",
+      "category": "Oli & Pelumas",
+      "rack": "RAK OLI",
+      "cost": 48000,
+      "price": 65000,
+      "stock": 24,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-02",
+      "sku": "OLI-002",
+      "name": "Oli AHM MPX2 0.8L Matic",
+      "category": "Oli & Pelumas",
+      "rack": "RAK OLI",
+      "cost": 39000,
+      "price": 55000,
+      "stock": 30,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-03",
+      "sku": "REM-001",
+      "name": "Kampas Rem Depan Cakram Beat/Vario",
+      "category": "Pengereman",
+      "rack": "RAK A1",
+      "cost": 22000,
+      "price": 40000,
+      "stock": 15,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-04",
+      "sku": "REM-002",
+      "name": "Kampas Rem Belakang Tromol Matic",
+      "category": "Pengereman",
+      "rack": "RAK A2",
+      "cost": 25000,
+      "price": 45000,
+      "stock": 4,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-05",
+      "sku": "CVT-001",
+      "name": "Vanbelt + Roller Set Vario 125/150",
+      "category": "CVT & Penggerak",
+      "rack": "RAK B1",
+      "cost": 135000,
+      "price": 185000,
+      "stock": 8,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-06",
+      "sku": "ELK-001",
+      "name": "Busi NGK CPR9EA-9 Original",
+      "category": "Kelistrikan",
+      "rack": "RAK B2",
+      "cost": 16000,
+      "price": 28000,
+      "stock": 3,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-07",
+      "sku": "BAN-001",
+      "name": "Ban Tubeless IRC 90/90-14",
+      "category": "Ban & Kaki-kaki",
+      "rack": "RAK BAN",
+      "cost": 195000,
+      "price": 245000,
+      "stock": 10,
+      "type": "PART"
+    },
+    {
+      "id": "ITM-08",
+      "sku": "SRV-001",
+      "name": "Jasa Servis Lengkap / Tune Up Injeksi",
+      "category": "Jasa Servis",
+      "rack": "JASA BENGKEL",
+      "cost": 0,
+      "price": 60000,
+      "stock": 999,
+      "type": "SERVICE"
+    },
+    {
+      "id": "ITM-09",
+      "sku": "SRV-002",
+      "name": "Jasa Servis & Bersih CVT Matic",
+      "category": "Jasa Servis",
+      "rack": "JASA BENGKEL",
+      "cost": 0,
+      "price": 45000,
+      "stock": 999,
+      "type": "SERVICE"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "JM-1001",
+      "timestamp": "2026-11-06T02:58:21.461Z",
+      "dateFormatted": "06 Nov 2026, 09.58",
+      "plate": "B 4512 KJT",
+      "bike": "Honda Vario 150",
+      "customer": "Bpk. Hendra",
+      "mechanic": "Bang Jago",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "TUNAI",
+      "items": [
+        {
+          "id": "ITM-01",
+          "name": "Oli Yamalube Super Matic 1L",
+          "qty": 1,
+          "price": 65000,
+          "cost": 48000
+        },
+        {
+          "id": "ITM-09",
+          "name": "Jasa Servis & Bersih CVT Matic",
+          "qty": 1,
+          "price": 45000,
+          "cost": 0
+        }
+      ],
+      "discount": 0,
+      "total": 110000,
+      "profit": 62000,
+      "synced": true
+    },
+    {
+      "id": "JM-1002",
+      "timestamp": "2026-11-05T02:58:21.461Z",
+      "dateFormatted": "05 Nov 2026, 09.58",
+      "plate": "D 2910 VBN",
+      "bike": "Yamaha NMax",
+      "customer": "Mas Dani",
+      "mechanic": "Kang Asep",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "id": "ITM-05",
+          "name": "Vanbelt + Roller Set Vario 125/150",
+          "qty": 1,
+          "price": 185000,
+          "cost": 135000
+        },
+        {
+          "id": "ITM-08",
+          "name": "Jasa Servis Lengkap / Tune Up Injeksi",
+          "qty": 1,
+          "price": 60000,
+          "cost": 0
+        }
+      ],
+      "discount": 0,
+      "total": 245000,
+      "profit": 110000,
+      "synced": true
+    },
+    {
+      "id": "JM-1003",
+      "timestamp": "2026-11-03T02:58:21.461Z",
+      "dateFormatted": "03 Nov 2026, 09.58",
+      "plate": "B 6781 TGH",
+      "bike": "Honda Beat Street",
+      "customer": "Ibu Rina",
+      "mechanic": "Mas Rian",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "TUNAI",
+      "items": [
+        {
+          "id": "ITM-02",
+          "name": "Oli AHM MPX2 0.8L Matic",
+          "qty": 1,
+          "price": 55000,
+          "cost": 39000
+        },
+        {
+          "id": "ITM-03",
+          "name": "Kampas Rem Depan Cakram Beat/Vario",
+          "qty": 1,
+          "price": 40000,
+          "cost": 22000
+        }
+      ],
+      "discount": 0,
+      "total": 95000,
+      "profit": 34000,
+      "synced": true
+    },
+    {
+      "id": "JM-1004",
+      "timestamp": "2026-10-25T02:58:21.461Z",
+      "dateFormatted": "25 Okt 2026, 09.58",
+      "plate": "F 5120 OP",
+      "bike": "Yamaha Aerox",
+      "customer": "Pak Wahyu",
+      "mechanic": "Bang Jago",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "TRANSFER",
+      "items": [
+        {
+          "id": "ITM-07",
+          "name": "Ban Tubeless IRC 90/90-14",
+          "qty": 2,
+          "price": 245000,
+          "cost": 195000
+        }
+      ],
+      "discount": 0,
+      "total": 490000,
+      "profit": 100000,
+      "synced": true
+    },
+    {
+      "id": "JM-1005",
+      "timestamp": "2026-09-27T02:58:21.461Z",
+      "dateFormatted": "27 Sep 2026, 09.58",
+      "plate": "B 3119 KLP",
+      "bike": "Honda Scoopy",
+      "customer": "Mbak Maya",
+      "mechanic": "Kang Asep",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "id": "ITM-08",
+          "name": "Jasa Servis Lengkap / Tune Up Injeksi",
+          "qty": 1,
+          "price": 60000,
+          "cost": 0
+        },
+        {
+          "id": "ITM-02",
+          "name": "Oli AHM MPX2 0.8L Matic",
+          "qty": 1,
+          "price": 55000,
+          "cost": 39000
+        }
+      ],
+      "discount": 0,
+      "total": 115000,
+      "profit": 76000,
+      "synced": true
+    },
+    {
+      "id": "JM-1006",
+      "timestamp": "2026-08-03T02:58:21.461Z",
+      "dateFormatted": "03 Agu 2026, 09.58",
+      "plate": "B 8821 UJ",
+      "bike": "Honda PCX 160",
+      "customer": "Bpk. Anton",
+      "mechanic": "Bang Jago",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "TUNAI",
+      "items": [
+        {
+          "id": "ITM-05",
+          "name": "Vanbelt + Roller Set Vario 125/150",
+          "qty": 1,
+          "price": 185000,
+          "cost": 135000
+        },
+        {
+          "id": "ITM-01",
+          "name": "Oli Yamalube Super Matic 1L",
+          "qty": 1,
+          "price": 65000,
+          "cost": 48000
+        }
+      ],
+      "discount": 0,
+      "total": 250000,
+      "profit": 67000,
+      "synced": true
+    },
+    {
+      "id": "JM-1007",
+      "timestamp": "2026-05-10T02:58:21.461Z",
+      "dateFormatted": "10 Mei 2026, 09.58",
+      "plate": "B 7712 MM",
+      "bike": "Yamaha Mio M3",
+      "customer": "Kang Dedi",
+      "mechanic": "Mas Rian",
+      "cashier": "Siti Aminah (Kasir)",
+      "paymentMethod": "TUNAI",
+      "items": [
+        {
+          "id": "ITM-07",
+          "name": "Ban Tubeless IRC 90/90-14",
+          "qty": 1,
+          "price": 245000,
+          "cost": 195000
+        },
+        {
+          "id": "ITM-03",
+          "name": "Kampas Rem Depan Cakram Beat/Vario",
+          "qty": 1,
+          "price": 40000,
+          "cost": 22000
+        }
+      ],
+      "discount": 0,
+      "total": 285000,
+      "profit": 68000,
+      "synced": true
+    }
+  ],
+  "stockLogs": []
+}
