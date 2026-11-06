@@ -26,6 +26,13 @@
       "passHash": "jm_b8789fb_1266653b",
       "name": "Bapak Pimpinan (Owner)",
       "role": "OWNER"
+    },
+    {
+      "id": "U-1793935784463",
+      "name": "Armin",
+      "username": "kasir1",
+      "passHash": "jm_b8789fb_1266653b",
+      "role": "KASIR"
     }
   ],
   "inventory": [
